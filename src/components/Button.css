@@ -1,0 +1,56 @@
+button {
+  border: none;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  outline: none;
+}
+div.dark .btn {
+  border: none;
+  background-color: rgb(16, 12, 42);
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  outline: none;
+}
+div.light .btn {
+  border: none;
+  background-color: rgb(188, 183, 220);
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  outline: none;
+}
+div.standard .btn {
+  border: none;
+  background-color: rgb(80, 60, 209);
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  outline: none;
+}
+
+.btn:hover {
+  background-color: rgb(61, 43, 184);
+}
+
+.equals {
+  grid-column: 3 / 5;
+  background-color: rgb(243, 61, 29);
+}
+
+.reset {
+  grid-column: 1 / 3;
+  background-color: rgb(72, 29, 243);
+}
+
+.equals:hover {
+  background-color: rgb(228, 39, 15);
+}
